@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background: #0e1015;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.is-half {
+  width: 50%;
+}
+
+.is-15 {
+  width: 15%;
+}
+
+.is-35 {
+  width: 35%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

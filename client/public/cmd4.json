@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "command": "Embed Message",
+    "description": "Create Embed Message and allows the user to customize it according to their needs",
+    "usage": "/embedcreator [Title] [Description] [Color] [Image] [Thumbnail] [field-name] [field-value] [footer]"
+  }
+]

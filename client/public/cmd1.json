@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "command": "Report",
+    "description": "Checks the most recent messages for any offensive content",
+    "usage": "/report"
+  },
+  {
+    "id": 2,
+    "command": "User Info",
+    "description": "Gives the information about a user on the server, if no user is specified as a parameter, then the info of the user who called the command is used",
+    "usage": "/userinfo [user: optional]"
+  },
+  {
+    "id": 3,
+    "command": "Server Info",
+    "description": "Gives the information about the whole server",
+    "usage": "/serverinfo"
+  },
+  {
+    "id": 4,
+    "command": "Purge",
+    "description": "Remove all messages from specified channel",
+    "usage": "/purge"
+  }
+]

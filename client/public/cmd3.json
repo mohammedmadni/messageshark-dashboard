@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "command": "Ticketing",
+    "description": "Set up MessageShark's ticketing feature",
+    "usage": "/ticketing"
+  },
+  {
+    "id": 2,
+    "command": "Reminder",
+    "description": "Timed message to make user remind something after time",
+    "usage": "/remindme [time] [title: optional] [description: optional]"
+  },
+  {
+    "id": 3,
+    "command": "Youtube",
+    "description": "Show latest video of that Youtube Channel has uploaded",
+    "usage": "/youtube [channel]"
+  }
+]

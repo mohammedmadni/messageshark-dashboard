@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "command": "Level",
+    "description": "Check which level is user currently at",
+    "usage": "/level"
+  },
+  {
+    "id": 2,
+    "command": "Level Up",
+    "description": "See how many experience is required to level up and how many experience do they gain by sending one proper message",
+    "usage": "/levelUp"
+  }
+]

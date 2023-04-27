@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm startc\" \"node server/index.js\"",
+    "start": "concurrently \"npm:startc\" \"node server/index.js\"",
     "build": "npm install && cd client && npm install && npm run build",
     "startc": "cd client && npm start"
   },
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "8.0.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "discord-oauth2": "^2.11.0",
